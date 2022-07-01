@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav-ul">
+            <li class="nav-li"><h1>Profile</h1></li>
+            <li class="nav-li"><a href="">Home</a></li>
+            <li class="nav-li"><a href="">My profile</a></li>
+            <li class="nav-li"><a href="">Find Connections</a></li>
+            <li class="nav-li"><button id="btn-signOut">Sign Out</button></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="main-left">
+            <!-- CARD profile -->
+       
+            <div class="card">
+                
+                <section class="card-top"></section>
+                
+                <section class="card-user">
+                    <img src="./assets/img/jane-m.jpg" alt="user" class="img img-user">
+                </section>
+                  
+                   
+                <section class="card-bottom">
+                        <h2 id="user-name">Jane Doe</h2>
+                        <div class="card-ubic">
+                            <img src="./assets/img/map-marker.png" alt="map" class="img-icon">
+                            <p>Seattle</p>
+                        </div>
+                        <p class="card-info">Developer | Engineer | Problem Solver | Master of shadows and the Internet!</p>
+                        <div class="card-edit">
+                            <img src="./assets/img/gear.png" alt="gear" class="img-icon">
+                            <a href="#" id="edit-profile">Edit profile</a>
+                        </div>
+                     
+                </section>  
+            </div> 
+
+            <!-- CARD education -->
+            <div class="card card-connection">
+                <section class="card-connection-top">
+                
+                    <p class="card-p">Education</p>
+                </section>
+
+                <section class="card-connection-bottom card-education">
+                    <h3 class="card-title">Coding Dojo - Full Stack Bootcamp</h3>
+                    <p class="card-p-f">Dec 2019 - Mar 2020</p>
+                    <p class="card-p-d">Triple black belt in Python, Mern and C#</p>
+                </section>
+            </div>
+           
+
+
+        </div>
+
+        <div class="main-right">
+            <!-- Connection request -->
+            <div class="card card-connection">
+                <section class="card-connection-top">
+                    <p class="card-p card-p-num" id="number-connections">2</p>
+                    <p class="card-p">Connection Requests</p>
+                </section>
+
+                <section class="card-connection-bottom">
+                    <article class="request">
+                        <img class="img-request" src="./assets/img/todd-s.jpg" alt="imgs">
+                        <p>Todd E</p>
+                        <img class="img-icon-request accept" src="./assets/img/accept-circle.png" alt="imgs">
+                        <img class="img-icon-request close" src="./assets/img/close-circle.png" alt="imgs">
+                    </article>
+                    <article class="request">
+                        <img class="img-request" src="./assets/img/phil-s.jpg" alt="imgs">
+                        <p>Phil K</p>
+                        <img class="img-icon-request accept" src="./assets/img/accept-circle.png" alt="imgs">
+                        <img class="img-icon-request close" src="./assets/img/close-circle.png" alt="imgs">
+                    </article>
+                </section>
+            </div>
+
+            <!-- Your Connections -->
+            <div class="card card-connection">
+                <section class="card-connection-top">
+                    <p class="card-p card-p-num" id="your-connections">500</p>
+                    <p class="card-p">Your Connections</p>
+                </section>
+
+                <section class="card-connection-bottom">
+                    <article class="connections">
+                        <img class="img-request" src="./assets/img/adrien-s.jpg" alt="imgs">
+                        <p>Adrien D</p>
+                        
+                    </article>
+                    <article class="connections">
+                        <img class="img-request" src="./assets/img/anne-s.jpg" alt="imgs">
+                        <p>Anne J</p>
+                        
+                    </article>
+                    <article class="connections">
+                        <img class="img-request" src="./assets/img/alayne-s.jpg" alt="imgs">
+                        <p>Alayne T</p>
+                        
+                    </article>
+                    <article class="connections">
+                        <img class="img-request" src="./assets/img/arry-s.jpg" alt="imgs">
+                        <p>Arry Y</p>
+                        
+                    </article>
+
+                    <article class="ver-mas">
+                        <a href="#">View More</a>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
